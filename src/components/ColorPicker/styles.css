@@ -1,0 +1,29 @@
+.ColorPicker {
+  width: 420px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.ColorPicker__title {
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+.ColorPicker > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -10px;
+}
+.ColorPicker__option {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: tomato;
+  transition: transform 250ms linear;
+}
+.ColorPicker__option--active {
+  transform: scale(1.2);
+}
